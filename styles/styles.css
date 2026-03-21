@@ -1,3 +1,8 @@
+nav {
+    background-color: #1f1460;
+    padding: 10px;
+}
+
 nav a {
     color: white;
     display: block;
@@ -6,6 +11,10 @@ nav a {
 
 h1 {
     color: darkblue;
+}
+
+p {
+    padding: 0;
 }
 
 img {
