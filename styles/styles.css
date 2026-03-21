@@ -24,7 +24,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb (0 0 0 /0.2);
+    border: 1px solid #676767;
     /* 1 */
     padding: 1rem;
     background-color: #eee;
@@ -36,7 +36,6 @@ aside img {
     width: 200px;
     height: auto;
     box-shadow: 0 0 30px gray;
-    ;
 }
 
 main img {
