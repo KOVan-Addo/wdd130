@@ -40,7 +40,7 @@ aside {
     text-align: center;
 }
 
-img {
+aside img {
     width: 200px;
     height: auto;
     box-shadow: 0 0 30px gray;
@@ -48,8 +48,11 @@ img {
 }
 
 main img {
-    width: 150px;
+    width: 300px;
     height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 0 10px #494949;
 }
 
 footer {
