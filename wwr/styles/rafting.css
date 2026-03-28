@@ -22,7 +22,7 @@ body {
     color: var(--accent1-color);
 }
 
-/* LAYOUT WIDTH */
+/* LAYOUT */
 header,
 main,
 footer {
@@ -37,7 +37,7 @@ h2 {
     color: var(--primary-color);
 }
 
-/* GENERAL SPACING */
+/* SPACING */
 nav,
 p,
 section,
@@ -46,7 +46,7 @@ article {
     padding: 8px;
 }
 
-/* NAVIGATION */
+/* NAV */
 nav {
     background-color: var(--secondary-color);
 }
@@ -58,7 +58,7 @@ nav a {
     display: inline-block;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
     position: relative;
 }
@@ -98,7 +98,7 @@ nav a {
     margin-left: 10px;
 }
 
-/* SOCIAL MEDIA LINKS */
+/* SOCIAL MEDIA */
 .socialmedia a {
     text-decoration: none;
 }
