@@ -1,4 +1,4 @@
-/* CSS VARIABLES */
+/* VARIABLES */
 :root {
     --primary-color: #1f3c88;
     --secondary-color: #39a2db;
@@ -22,12 +22,46 @@ body {
     color: var(--accent1-color);
 }
 
-/* LAYOUT */
+/* LAYOUT WIDTH */
 header,
 main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+/* HEADER GRID */
+header {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+}
+
+/* NAV FLEX */
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+/* NAV BACKGROUND */
+nav {
+    background-color: var(--secondary-color);
 }
 
 /* HEADINGS */
@@ -46,18 +80,6 @@ article {
     padding: 8px;
 }
 
-/* NAV */
-nav {
-    background-color: var(--secondary-color);
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-}
-
 /* HERO */
 .hero {
     position: relative;
@@ -69,7 +91,6 @@ nav a {
     height: auto;
 }
 
-/* HERO TITLE */
 .hero h1 {
     position: absolute;
     top: 20px;
@@ -81,36 +102,66 @@ nav a {
     color: #fff;
 }
 
-/* HERO ARTICLE */
 .hero article {
     position: absolute;
     bottom: 20px;
     left: 20px;
     right: 20px;
     background-color: var(--accent2-color);
-    padding: 16px;
 }
 
-/* HERO ARTICLE IMAGE */
 .hero article img {
     float: right;
     width: 125px;
     margin-left: 10px;
 }
 
-/* SOCIAL MEDIA */
-.socialmedia a {
-    text-decoration: none;
+/* HISTORY GRID */
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.history-content img {
+    width: 100%;
+}
+
+/* ADVENTURE FLEX */
+.adventure-gallery {
+    display: flex;
+    gap: 10px;
+}
+
+figure {
+    text-align: center;
+    flex: 1;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+/* FOOTER FLEX */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    border-top: 1px solid #000;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
 }
 
 .socialmedia img {
     width: 30px;
-    height: auto;
 }
 
-/* FOOTER */
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
+.socialmedia a {
+    text-decoration: none;
 }
