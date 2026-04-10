@@ -165,3 +165,66 @@ footer {
 .socialmedia a {
     text-decoration: none;
 }
+
+/* CONTACT LAYOUT */
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 8px 0;
+    padding: 0;
+}
+
+/* MAP */
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form button {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* EMPLOYEES */
+.employee-profiles {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.employee-profiles img {
+    width: 100%;
+}
+
+.employees {
+    text-align: center;
+    margin-top: 20px;
+}
