@@ -228,3 +228,10 @@ form button {
     text-align: center;
     margin-top: 20px;
 }
+
+.radio-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}

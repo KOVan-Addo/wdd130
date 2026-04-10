@@ -14,6 +14,7 @@
 
 <body>
 
+    <!-- HEADER -->
     <header>
         <img src="images/crossed-oars.png" alt="Company logo">
 
@@ -42,37 +43,49 @@
 
             <!-- MAP -->
             <div class="map">
-                <iframe src="https://www.google.com/maps?q=kolob+utah&output=embed" loading="lazy">
-                </iframe>
+                <iframe src="https://www.google.com/maps?q=kolob+utah&output=embed"
+                  loading="lazy"></iframe>
             </div>
 
             <!-- FORM -->
             <form>
+                <!-- NAME -->
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
 
+                <!-- EMAIL -->
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
 
+                <!-- PURPOSE -->
                 <p>Message Purpose</p>
 
-                <label><input type="radio" id="general" name="purpose" value="general"> General
-                    Inquiry</label>
-                <label><input type="radio" id="reservation" name="purpose" value="reservation">
-                    Reservation
-                    Question</label>
-                <label><input type="radio" id="suggestion" name="purpose" value="suggestion">
-                    Website
-                    Suggestion</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="general" name="purpose" value="general">
+                        <label for="general">General Inquiry</label>
+                    </div>
 
+                    <div class="radio-option">
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+
+                    <div class="radio-option">
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </div>
+
+                <!-- MESSAGE -->
                 <label for="message">Message</label>
                 <textarea id="message" name="message"></textarea>
 
-                <label>
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                    I Subscribe to the monthly newsletter.
-                </label>
+                <!-- SUBSCRIBE -->
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
 
+                <!-- BUTTON -->
                 <button type="submit">Get in Touch!</button>
             </form>
 
@@ -85,17 +98,17 @@
             <div class="employee-profiles">
 
                 <figure>
-                    <img src="images/employee1.jpg" alt="Guide Kobby">
+                    <img src="images/employee1.jpg" alt="Guide Kobby leading a rafting trip">
                     <figcaption>Kobby – Lead Guide</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/employee2.jpg" alt="Instructor Winfred">
+                    <img src="images/employee2.jpg" alt="Instructor Winfred training clients">
                     <figcaption>Winfred – Safety Instructor</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/employee3.jpg" alt="Coordinator Kumah">
+                    <img src="images/employee3.jpg" alt="Coordinator Kumah organizing trips">
                     <figcaption>Kumah – Trip Coordinator</figcaption>
                 </figure>
 
@@ -104,8 +117,9 @@
 
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        <p> ©️ 2026 White Water Rafting Co. | Kelvin Offei Van-Addo</p>
+        <p>© 2026 White Water Rafting Co. | Kelvin Offei Van-Addo</p>
 
         <nav class="socialmedia">
             <a href="#"><img src="images/facebook.svg" alt="Visit our Facebook page"></a>
